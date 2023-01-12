@@ -1,0 +1,4 @@
+// nowtech
+// this works only from separate gradle, not from kts
+setBinding(new Binding([gradle: this]))
+evaluate(new File(settingsDir.parentFile, "xapp/flutter_gui/.android/include_flutter.groovy"))
