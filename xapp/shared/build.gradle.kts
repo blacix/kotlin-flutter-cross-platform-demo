@@ -55,7 +55,7 @@ android {
     }
 }
 
-// nowtech
+// NOTE - androidx needs it
 repositories {
     mavenCentral()
     google()

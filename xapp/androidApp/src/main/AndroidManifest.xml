@@ -14,7 +14,7 @@
 <!--            </intent-filter>-->
 <!--        </activity>-->
 
-        <!-- nowtech add flutter activity-->
+        <!-- NOTE add flutter activity-->
         <activity
             android:name="io.flutter.embedding.android.FlutterActivity"
             android:theme="@style/AppTheme"

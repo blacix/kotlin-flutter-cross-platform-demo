@@ -31,17 +31,17 @@ android {
     }
 }
 
-// nowtech
+// NOTE - androidx needs it
 repositories {
     mavenCentral()
     google()
 }
 
 dependencies {
-    // nowtech - add flutter
+    // NOTE - add flutter
     implementation(project(":flutter"))
     implementation(project(":shared"))
-    // nowtech update deps
+    // NOTE - update deps
     implementation("androidx.compose.ui:ui:1.3.2")
     implementation("androidx.compose.ui:ui-tooling:1.3.2")
     implementation("androidx.compose.ui:ui-tooling-preview:1.3.2")
